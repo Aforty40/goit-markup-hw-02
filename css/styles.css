@@ -1,0 +1,144 @@
+:root {
+  --color-text: #757575;
+  --color-link: #212121;
+  --color-acsent: #2196f3;
+  --color-background: #e5e5e5;
+}
+body {
+  color: #757575;
+  font-family: roboto, suns-serif;
+  letter-spacing: 0.03em;
+  background-color: var(--color-background);
+}
+
+ul {
+  list-style: none;
+}
+/* основной цвет шрифта #757575 */
+/* вторичный цвет шрифта #212121 */
+/* акцент #2196F3*/
+/* цвет фона наша команда #F5F4FA */
+/* цвет фона nav #ffffff */
+/*  цвет фона footer #2F303A */
+
+/* site-nav */
+header {
+  background-color: #ffffff;
+}
+.link {
+  color: var(--color-Link);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.link:hover {
+  color: var(--color-acsent);
+}
+.link:focus {
+  color: var(--color-acsent);
+}
+
+.main-title {
+  color: #ffffff;
+  background-color: #2f303a;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.main-title-link {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.general-features-title {
+  color: var(--color-link);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.text {
+  color: var(--color-text);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.our-team {
+  background-color: #f5f4fa;
+}
+
+.name {
+  color: var(--color-link);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19px;
+  letter-spacing: 0.03em;
+}
+.name-text {
+  color: var(--color-text);
+  font-size: 16px;
+  line-height: 1.19px;
+  letter-spacing: 0.03em;
+}
+
+footer {
+  background-color: #2f303a;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.home-address {
+  color: #ffffff;
+}
+.contact {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.logo {
+  color: var(--color-acsent);
+  font-family: raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+}
+
+.logo-header {
+  color: var(--color-link);
+  font-family: raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+}
+
+.logo-footer {
+  color: #ffffff;
+  font-family: raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+}
