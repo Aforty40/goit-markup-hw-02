@@ -25,7 +25,7 @@ ul {
 header {
   background-color: #ffffff;
 }
-.site-nav .link {
+nav .link {
   color: var(--color-second);
   font-size: 14px;
   font-weight: 500;
@@ -33,15 +33,14 @@ header {
   letter-spacing: 0.02em;
 }
 
-.site-nav .link:hover {
+nav .link:hover {
+  color: var(--color-acsent);
+}
+nav .link:focus {
   color: var(--color-acsent);
 }
 
-.site-nav .link:focus {
-  color: var(--color-acsent);
-}
-
-.site-nav .link.current {
+nav .link.current {
   color: var(--color-acsent);
 }
 
