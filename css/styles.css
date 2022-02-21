@@ -165,7 +165,7 @@ footer {
   letter-spacing: 0.03em;
 }
 
-.portfolio-choice-link {
+.portfolio-filtr-link {
   color: var(--color-second);
   font-weight: 500;
   font-size: 16px;
@@ -174,7 +174,7 @@ footer {
   letter-spacing: 0.03em;
   text-decoration: none;
 }
-.portfolio-choice-link:hover,
-.portfolio-choice-link:focus {
+.portfolio-filtr-link:hover,
+.portfolio-filtr-link:focus {
   color: var(--color-acsent);
 }
