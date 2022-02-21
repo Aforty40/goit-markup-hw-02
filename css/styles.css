@@ -199,3 +199,8 @@ button:focus {
   color: #ffffff;
   background-color: var(--color-acsent);
 }
+
+button:active {
+  color: #ffffff;
+  background-color: var(--color-acsent);
+}
