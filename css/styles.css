@@ -3,7 +3,9 @@
   --color-second: #212121;
   --color-acsent: #2196f3;
   --color-background: #e5e5e5;
+  --color-bacground-button: #f5f4fa;
 }
+
 body {
   color: #757575;
   font-family: roboto, suns-serif;
@@ -174,7 +176,26 @@ footer {
   letter-spacing: 0.03em;
   text-decoration: none;
 }
-.portfolio-filtr-link:hover,
-.portfolio-filtr-link:focus {
-  color: var(--color-acsent);
+
+button {
+  color: var(--color-second);
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+  background-color: var(--color-bacground-button);
+}
+
+button:hover {
+  color: #ffffff;
+  background-color: var(--color-acsent);
+}
+
+button:focus {
+  color: #ffffff;
+  background-color: var(--color-acsent);
 }
